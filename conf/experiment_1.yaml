@@ -1,0 +1,12 @@
+defaults:
+  - config
+  - _self_
+
+model:
+  settings:
+    pretrained: true
+
+scheduler:
+  scheduler_name: "step"
+  step_size: 10
+  gamma: 0.5

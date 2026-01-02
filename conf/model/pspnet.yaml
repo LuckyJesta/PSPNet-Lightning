@@ -1,0 +1,5 @@
+model_name: "PSPNet_ResNet50"
+
+settings:
+  num_classes: 3
+  pretrained: false

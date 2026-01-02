@@ -1,0 +1,32 @@
+defaults:
+  - model: pspnet
+  - dataset: pet
+  - _self_             
+
+hydra:
+  run:
+    dir: ./logs/${dataset.dataset_name}/${model.model_name}/${hydra:job.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+job_name: ${hydra:job.name}
+
+trainer:
+  max_epochs: 100
+  devices: [0]
+  accelerator: "gpu"
+  precision: "bf16-mixed"
+  check_val_every_n_epoch: 1
+  log_every_n_steps: 10
+
+optimizer:
+  lr: 1e-3
+  momentum: 0.9
+  weight_decay: 1e-4
+
+scheduler:
+  scheduler_name: "poly"
+  power: 0.9
+
+visualization:
+  num_samples: 2
+
+ckpt_path: "./checkpoint_demo/demo-epoch=00-val_loss=0.20.ckpt"

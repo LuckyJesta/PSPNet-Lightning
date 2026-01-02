@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+data_split/
+logs/
+checkpoints/
+vis_results/
+.venv/
+env/
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,9 @@
+dataset_name: "OxfordPet"
+
+data_path:
+  train: "./data_split/train"
+  val: "./data_split/val"
+  test: "./data_split/test"
+
+batch_size: 32
+num_workers: 4
