@@ -36,12 +36,6 @@ Project_Root
 - **Python**: 3.10.19
 - **CUDA**: 12.8
 
-Install dependencies using `requirements.txt`:
-
-```bash
-pip install -r requirements.txt
-```
-
 _Key Libraries Versions:_
 
 - `pytorch-lightning`: 2.6.0
@@ -139,12 +133,6 @@ Project_Root
 
 - **Python**: 3.10.19
 - **CUDA**: 12.8
-
-使用 `requirements.txt` 安装依赖：
-
-```bash
-pip install -r requirements.txt
-```
 
 _关键库版本：_
 
