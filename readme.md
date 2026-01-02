@@ -17,8 +17,6 @@
 
 > **Note**: This project was developed as part of the author's deep learning study journey. While it aims to implement best practices, there may be imperfections or areas for improvement. Feedback and suggestions are welcome.
 
-This project demonstrates modern deep learning engineering practices, utilizing `torch.compile` and mixed precision for high-performance training on RTX 30/40 series GPUs.
-
 ### 📂 Project Structure
 
 ```text
@@ -110,7 +108,6 @@ python scripts/test.py ckpt_path="/path/to/your/best_model.ckpt"
 
 - **Guidance**: This project was completed under the guidance of **@Chandery**.
 - Original Paper: [Pyramid Scene Parsing Network (CVPR 2017)](https://www.google.com/url?sa=E&q=https%3A%2F%2Farxiv.org%2Fabs%2F1612.01105)
-- Reference implementation: Original PSPNet repository.
 
 ---
 
@@ -123,8 +120,6 @@ python scripts/test.py ckpt_path="/path/to/your/best_model.ckpt"
 **PSPNet-Lightning** 是一个基于 **PyTorch Lightning** 框架和 **Hydra** 配置管理系统的语义分割项目。本项目复现了经典的 **PSPNet** (Pyramid Scene Parsing Network) 架构（使用 **ResNet50** 主干），并针对 **Oxford-IIIT Pet** 宠物数据集进行了优化。
 
 > **说明**：本项目是作者在深入学习深度学习过程中的实践作品。虽然力求规范，但难免存在不完善之处，恳请批评指正。
-
-本项目展示了现代深度学习工程的最佳实践，支持使用 `torch.compile` 和混合精度在 RTX 30/40 系列显卡上进行高性能训练。
 
 ### 📂 项目结构
 
@@ -217,4 +212,3 @@ python scripts/test.py ckpt_path="/path/to/your/best_model.ckpt"
 
 - **指导**：本项目是在 **@Chandery** 的悉心指导下完成的。
 - 原论文：[Pyramid Scene Parsing Network (CVPR 2017)](https://www.google.com/url?sa=E&q=https%3A%2F%2Farxiv.org%2Fabs%2F1612.01105)
-- 参考实现：PSPNet 原项目。
